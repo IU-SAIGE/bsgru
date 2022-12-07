@@ -4,7 +4,7 @@ import torch.nn
 
 from typing import Optional, Tuple, Union
 from torch.nn.utils.rnn import PackedSequence
-from torch.nn.functional import one_hot
+from torch.nn.functional import one_hot, softmax
 from torch import sigmoid, tanh, Tensor
 
 
